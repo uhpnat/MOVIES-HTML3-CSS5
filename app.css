@@ -198,6 +198,8 @@ a.movie-item:hover {
 }
 
 .hero-slide-item {
+    height: 94vh;
+
     padding-top: 40%;
     position: relative;
     overflow: hidden;
@@ -600,7 +602,7 @@ footer .content {
     .nav-menu li {
         margin: 10px 30px;
     }
-
+    
     .nav-menu.active {
         left: 0;
     }
