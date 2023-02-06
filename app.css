@@ -370,6 +370,9 @@ a.movie-item:hover {
 .movie-item:hover img {
     transform: scale(1.2);
 }
+.movie-item:hover .movie-item-title{
+    font-size: 2rem;
+}
 
 .movie-item-content {
     position: absolute;
@@ -395,6 +398,7 @@ a.movie-item:hover {
     font-size: 1.5rem;
     position: relative;
     font-weight: 700;
+    transition: 0.5s;
 }
 
 .section {
